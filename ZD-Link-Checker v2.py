@@ -34,6 +34,8 @@ keys = ['id', 'html_url', 'body', 'name', 'locale']
 
 all_articles = getPaginatedData(api_url, {}, 'next_page', 'articles', keys)
 
+
+#this is a comment
 url_pattern = r"(http(s)?:\/\/.)?(www\.)?[-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_\+.~#?&//=]*)"
 email_pattern = r"\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}\b"
 all_links = []
